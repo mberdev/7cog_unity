@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a67dc316e2c6447f08e39c5a98b59ad4
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11896
+  packageName: Adventure Creator
+  packageVersion: 1.79.3
+  assetPath: Assets/AdventureCreator/Scripts/Static/tk2DIntegration.cs
+  uploadId: 635970

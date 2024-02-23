@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5f6c016f93ba44340b35bfef910a3394
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11896
+  packageName: Adventure Creator
+  packageVersion: 1.79.3
+  assetPath: Assets/AdventureCreator/Scripts/Static/RogoLipSyncIntegration.cs
+  uploadId: 635970
