@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48bb4837106a44466aea61fef9b346fe, type: 3}
-  m_Name: References
+  m_Script: {fileID: 11500000, guid: 4b4a24d0e4a28423fb3249b923d7e418, type: 3}
+  m_Name: 7cog_ManagerPackage
   m_EditorClassIdentifier: 
   actionsManager: {fileID: 11400000, guid: e4cc3c7800a2a944985fedfccc20d559, type: 2}
   sceneManager: {fileID: 11400000, guid: 5efddc1c06b8a37499ba31163649b95f, type: 2}
