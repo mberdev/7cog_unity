@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dac6eba2db03fe74daf8de3bddd9bfd8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 262275
+  packageName: Retro Desktop PC
+  packageVersion: 1.0.0
+  assetPath: Assets/Retro_PC/prefab/retro_PC_basic.prefab
+  uploadId: 604833

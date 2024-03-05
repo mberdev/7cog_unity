@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a096b902e5d07274cb028ef5392bec34
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 262275
+  packageName: Retro Desktop PC
+  packageVersion: 1.0.0
+  assetPath: Assets/Retro_PC/material/Retro_PC_DETAILED.mat
+  uploadId: 604833

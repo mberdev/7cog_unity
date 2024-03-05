@@ -188,7 +188,7 @@ MonoBehaviour:
   outlineSize: 2
   effectColour: {r: 0, g: 0, b: 0, a: 1}
   buttonClickType: 3
-  actionList: {fileID: 11400000, guid: 673b36f59d83c4cc5b707d270f4ad87a, type: 2}
+  actionList: {fileID: 11400000, guid: 107436c03aac4274a941da4c2ca4dbb9, type: 2}
   parameterID: -1
   parameterValue: 0
   doFade: 0
@@ -1277,7 +1277,7 @@ MonoBehaviour:
   outlineSize: 2
   effectColour: {r: 0, g: 0, b: 0, a: 1}
   buttonClickType: 3
-  actionList: {fileID: 11400000, guid: 0bf9476cfba3b416c969199b54211877, type: 2}
+  actionList: {fileID: 11400000, guid: bad6cf73c8226bb4dbd14f2f0e77a09b, type: 2}
   parameterID: -1
   parameterValue: 0
   doFade: 0
@@ -1596,7 +1596,7 @@ MonoBehaviour:
   showWhenPaused: 0
   canClickInCutscene: 0
   enabledOnStart: 0
-  actionListOnTurnOn: {fileID: 11400000, guid: d25b1951b64504ecca2be84c2a8e0668, type: 2}
+  actionListOnTurnOn: {fileID: 11400000, guid: 29dfdea18e690ec45961697efd331465, type: 2}
   actionListOnTurnOff: {fileID: 0}
   updateWhenFadeOut: 1
   hideDuringSaveScreenshots: 1
@@ -2131,7 +2131,7 @@ MonoBehaviour:
   showWhenPaused: 0
   canClickInCutscene: 0
   enabledOnStart: 0
-  actionListOnTurnOn: {fileID: 11400000, guid: c6e29f6ea3d084d049c474742119836c, type: 2}
+  actionListOnTurnOn: {fileID: 11400000, guid: a30885161307265419aa15e31ff83cf2, type: 2}
   actionListOnTurnOff: {fileID: 0}
   updateWhenFadeOut: 1
   hideDuringSaveScreenshots: 1
@@ -2405,7 +2405,7 @@ MonoBehaviour:
   outlineSize: 2
   effectColour: {r: 0, g: 0, b: 0, a: 1}
   inventoryBoxType: 7
-  actionListOnClick: {fileID: 11400000, guid: 006991c5e5a2a4391bb18373a56ce249, type: 2}
+  actionListOnClick: {fileID: 11400000, guid: 186b5c5d04c721f48afd20413062b395, type: 2}
   maxSlots: 5
   limitToCategory: 0
   limitToDefinedInteractions: 1
@@ -2736,14 +2736,14 @@ MonoBehaviour:
   globalDepth: 0
   pauseTexture: {fileID: 0}
   scaleTextEffects: 0
-  keyboardControlWhenPaused: 1
+  keyboardControlWhenPaused: 0
   keyboardControlWhenCutscene: 0
-  keyboardControlWhenDialogOptions: 1
+  keyboardControlWhenDialogOptions: 0
   autoSelectValidRaycasts: 0
   horizontalInputAxis: Horizontal
   verticalInputAxis: Vertical
   useAddressables: 0
-  hasUpgraded: 0
+  hasUpgraded: 1
   doWindowsPreviewFix: 1
   drawOutlines: 1
   drawInEditor: 1
@@ -3579,7 +3579,7 @@ MonoBehaviour:
   outlineSize: 2
   effectColour: {r: 0, g: 0, b: 0, a: 1}
   buttonClickType: 3
-  actionList: {fileID: 11400000, guid: 57583fbafdf1e4964a77aba6223bc687, type: 2}
+  actionList: {fileID: 11400000, guid: 68772f7761c16474db657d26fd07e01f, type: 2}
   parameterID: -1
   parameterValue: 0
   doFade: 0
@@ -4378,7 +4378,7 @@ MonoBehaviour:
   outlineSize: 2
   effectColour: {r: 0, g: 0, b: 0, a: 1}
   buttonClickType: 3
-  actionList: {fileID: 11400000, guid: 7e291607709b64c05a5146e66857ebd9, type: 2}
+  actionList: {fileID: 11400000, guid: 46855beae7b40214ebc0a8137427eab4, type: 2}
   parameterID: -1
   parameterValue: 0
   doFade: 0
@@ -5572,7 +5572,7 @@ MonoBehaviour:
   outlineSize: 2
   effectColour: {r: 0, g: 0, b: 0, a: 1}
   buttonClickType: 3
-  actionList: {fileID: 11400000, guid: 591d780ae90874a03991d7fa69e706cb, type: 2}
+  actionList: {fileID: 11400000, guid: 09a339593864807479620250b3ed397f, type: 2}
   parameterID: -1
   parameterValue: 0
   doFade: 0
@@ -6430,7 +6430,7 @@ MonoBehaviour:
   outlineSize: 2
   effectColour: {r: 0, g: 0, b: 0, a: 1}
   buttonClickType: 3
-  actionList: {fileID: 11400000, guid: 0390d7199340c422da894cb624fdfddb, type: 2}
+  actionList: {fileID: 11400000, guid: 1061703b19d581d4aaec85a9cdba9791, type: 2}
   parameterID: -1
   parameterValue: 0
   doFade: 0
@@ -6480,7 +6480,7 @@ MonoBehaviour:
   showWhenPaused: 0
   canClickInCutscene: 0
   enabledOnStart: 0
-  actionListOnTurnOn: {fileID: 11400000, guid: f08f08e6520c746f289f229b9ffebade, type: 2}
+  actionListOnTurnOn: {fileID: 11400000, guid: 0899216a0887f814ba4b3f91af0340c4, type: 2}
   actionListOnTurnOff: {fileID: 0}
   updateWhenFadeOut: 1
   hideDuringSaveScreenshots: 1

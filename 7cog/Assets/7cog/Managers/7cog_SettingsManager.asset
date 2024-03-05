@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b776810ebfa374d7ba8f0fb5ed6e3265, type: 3}
   m_Name: 7cog_SettingsManager
   m_EditorClassIdentifier: 
-  separateEditorSaveFiles: 0
-  saveFileName: 
+  separateEditorSaveFiles: 1
+  saveFileName: 7cog
   saveTimeDisplay: 0
   customSaveFormat: MMMM dd, yyyy
   takeSaveScreenshots: 0
@@ -54,7 +54,7 @@ MonoBehaviour:
   movementMethod: 0
   inputMethod: 0
   simulatedCursorMoveSpeed: 4
-  interactionMethod: 0
+  interactionMethod: 2
   selectInteractions: 0
   autoHideInteractionIcons: 1
   cancelInteractions: 0
