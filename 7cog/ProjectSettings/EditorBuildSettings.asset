@@ -8,5 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/7cog/Rooms/Tibet/MountainTop/MountainTopScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/7cog/Rooms/UI/GameIntro_PC/GameIntro_PC.unity
+    guid: 2a1022aa1c6012a458f7bfd4bae197a6
+  - enabled: 1
+    path: Assets/7cog/Rooms/Tibet/GameIntro/GameIntro.unity
+    guid: f6f49747e31927b47a0072a323b9cf1e
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

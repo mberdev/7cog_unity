@@ -236,6 +236,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &456170491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 456170493}
+  - component: {fileID: 456170492}
+  m_Layer: 0
+  m_Name: ChangeScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &456170492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456170491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a261e3683dab64ea4fa0f2d57b2f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneToLoad: GameIntro
+--- !u!4 &456170493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456170491}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.011453664, y: -1.5478774, z: -20.119055}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &522552695
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,7 +343,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6,
     type: 3}
-  m_Color: {r: 0.4657692, g: 0, b: 0.6226415, a: 1}
+  m_Color: {r: 1, g: 0.402276, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -800,6 +845,8 @@ PlayableDirector:
     value: {fileID: 961739754}
   - key: {fileID: 5711292217912801140, guid: d54cf2e3dd577c148b904b725b134f9b, type: 2}
     value: {fileID: 0}
+  - key: {fileID: 2100177386156791721, guid: d54cf2e3dd577c148b904b725b134f9b, type: 2}
+    value: {fileID: 456170491}
   m_ExposedReferences:
     m_References: []
 --- !u!1660057539 &9223372036854775807
@@ -813,3 +860,4 @@ SceneRoots:
   - {fileID: 1047543359}
   - {fileID: 1942982429}
   - {fileID: 522552697}
+  - {fileID: 456170493}
