@@ -226,7 +226,7 @@ namespace AC
 
 			if (_rigidbody)
 			{
-				_rigidbody.velocity = Vector3.zero;
+				_rigidbody.linearVelocity = Vector3.zero;
 				_rigidbody.angularVelocity = Vector3.zero;
 			}
 		}
@@ -265,7 +265,7 @@ namespace AC
 			{
 				track.UpdateDraggable (this);
 				
-				if (UsesRigidbody && (_rigidbody.angularVelocity != Vector3.zero || _rigidbody.velocity != Vector3.zero))
+				if (UsesRigidbody && (_rigidbody.angularVelocity != Vector3.zero || _rigidbody.linearVelocity != Vector3.zero))
 				{
 					RunInteraction (true);
 				}
@@ -338,7 +338,7 @@ namespace AC
 				}
 				else if (_rigidbody)
 				{
-					PlayMoveSound (_rigidbody.velocity.magnitude);
+					PlayMoveSound (_rigidbody.linearVelocity.magnitude);
 				}
 			}
 
@@ -514,7 +514,7 @@ namespace AC
 
 			if (dragMode == DragMode.RotateOnly && UsesRigidbody)
 			{
-				_rigidbody.velocity = Vector3.zero;
+				_rigidbody.linearVelocity = Vector3.zero;
 			}
 
 			if (!ignoreInteractions)
@@ -585,7 +585,7 @@ namespace AC
 
 			if (dragMode == DragMode.RotateOnly && UsesRigidbody)
 			{
-				_rigidbody.velocity = Vector3.zero;
+				_rigidbody.linearVelocity = Vector3.zero;
 			}
 
 			KickStarter.eventManager.Call_OnGrabMoveable (this);
@@ -617,7 +617,7 @@ namespace AC
 
 				if (UsesRigidbody)
 				{
-					_rigidbody.velocity = Vector3.zero;
+					_rigidbody.linearVelocity = Vector3.zero;
 					_rigidbody.angularVelocity = Vector3.zero;
 				}
 			}

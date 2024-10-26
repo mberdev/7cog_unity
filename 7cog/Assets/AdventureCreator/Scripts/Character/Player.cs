@@ -343,7 +343,7 @@ namespace AC
 					}
 					else
 					{
-						_rigidbody.velocity = UpDirection * jumpSpeed;
+						_rigidbody.linearVelocity = UpDirection * jumpSpeed;
 					}
 					isJumping = true;
 

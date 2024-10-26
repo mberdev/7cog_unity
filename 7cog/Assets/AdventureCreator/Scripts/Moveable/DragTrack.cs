@@ -26,7 +26,7 @@ namespace AC
 		#region Variables
 
 		/** The Physics Material to give the track's end colliders */
-		public PhysicMaterial colliderMaterial;
+		public PhysicsMaterial colliderMaterial;
 		/** The size of the track's end colliders, as seen in the Scene window */
 		public float discSize = 0.2f;
 		/** The colour of Scene window Handles */

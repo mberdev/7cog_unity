@@ -334,7 +334,7 @@ namespace AC
 
 			if (_rigidbody && !_rigidbody.isKinematic)
 			{
-				_rigidbody.velocity = _rigidbody.angularVelocity = Vector3.zero;
+				_rigidbody.linearVelocity = _rigidbody.angularVelocity = Vector3.zero;
 			}
 
 			inWorldSpace = _inWorldSpace;
@@ -541,7 +541,7 @@ namespace AC
 
 			if (_rigidbody && !_rigidbody.isKinematic)
 			{
-				_rigidbody.velocity = _rigidbody.angularVelocity = Vector3.zero;
+				_rigidbody.linearVelocity = _rigidbody.angularVelocity = Vector3.zero;
 			}
 
 			inWorldSpace = _inWorldSpace;

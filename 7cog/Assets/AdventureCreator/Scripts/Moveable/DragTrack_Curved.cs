@@ -67,7 +67,7 @@ namespace AC
 					deltaForce *= draggable.maxSpeed / deltaForce.magnitude;
 				}
 			
-				deltaForce -= draggable.Rigidbody.velocity;
+				deltaForce -= draggable.Rigidbody.linearVelocity;
 				draggable.Rigidbody.AddForce (deltaForce, ForceMode.VelocityChange);
 			}
 			else
@@ -225,10 +225,10 @@ namespace AC
 			// Limit velocity to just along track
 			if (draggable.UsesRigidbody)
 			{
-				Vector3 localVelocity = draggable.Transform.InverseTransformDirection (draggable.Rigidbody.velocity);
+				Vector3 localVelocity = draggable.Transform.InverseTransformDirection (draggable.Rigidbody.linearVelocity);
 				localVelocity.x = 0;
 				localVelocity.z = 0;
-				draggable.Rigidbody.velocity = draggable.Transform.TransformDirection (localVelocity);
+				draggable.Rigidbody.linearVelocity = draggable.Transform.TransformDirection (localVelocity);
 			}
 
 			float proportionAlong = Mathf.Clamp01 (GetDecimalAlong (draggable));

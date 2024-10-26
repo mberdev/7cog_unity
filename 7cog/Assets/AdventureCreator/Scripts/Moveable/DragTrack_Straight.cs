@@ -85,7 +85,7 @@ namespace AC
 
 				if (draggable.Rigidbody)
 				{
-					draggable.Rigidbody.velocity = draggable.Rigidbody.angularVelocity = Vector3.zero;
+					draggable.Rigidbody.linearVelocity = draggable.Rigidbody.angularVelocity = Vector3.zero;
 				}
 			}
 
@@ -94,10 +94,10 @@ namespace AC
 			// Limit velocity to just along track
 			if (draggable.UsesRigidbody)
 			{
-				Vector3 localVelocity = Transform.InverseTransformDirection (draggable.Rigidbody.velocity);
+				Vector3 localVelocity = Transform.InverseTransformDirection (draggable.Rigidbody.linearVelocity);
 				localVelocity.x = 0;
 				localVelocity.z = 0;
-				draggable.Rigidbody.velocity = Transform.TransformDirection (localVelocity);
+				draggable.Rigidbody.linearVelocity = Transform.TransformDirection (localVelocity);
 			}
 		}
 
@@ -115,7 +115,7 @@ namespace AC
 					deltaForce *= draggable.maxSpeed / deltaForce.magnitude;
 				}
 
-				deltaForce -= draggable.Rigidbody.velocity;
+				deltaForce -= draggable.Rigidbody.linearVelocity;
 				draggable.Rigidbody.AddForce (deltaForce, ForceMode.VelocityChange);
 			}
 			else

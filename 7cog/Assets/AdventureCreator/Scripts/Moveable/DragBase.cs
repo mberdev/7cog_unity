@@ -268,10 +268,10 @@ namespace AC
 		{
 			isHeld = true;
 			grabPoint.position = grabPosition;
-			originalDrag = _rigidbody.drag;
-			originalAngularDrag = _rigidbody.angularDrag;
-			_rigidbody.drag = 20f;
-			_rigidbody.angularDrag = 20f;
+			originalDrag = _rigidbody.linearDamping;
+			originalAngularDrag = _rigidbody.angularDamping;
+			_rigidbody.linearDamping = 20f;
+			_rigidbody.angularDamping = 20f;
 
 			KickStarter.eventManager.Call_OnGrabMoveable (this);
 		}
@@ -463,7 +463,7 @@ namespace AC
 				if ((distanceToCamera < minZoom && zoom < 0f) || (distanceToCamera > maxZoom && zoom > 0f))
 				{
 					_rigidbody.AddForce (-moveVector * zoom * zoomSpeed);
-					_rigidbody.velocity = Vector3.zero;
+					_rigidbody.linearVelocity = Vector3.zero;
 				}
 				else
 				{
